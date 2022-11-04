@@ -1,0 +1,29 @@
+.urlForm {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    &__input {
+        width: 400px;
+        margin-bottom: 30px;
+    }
+    &__download {
+        width: 400px;
+        margin-top: 20px;
+        .wrapper {
+            display: flex;
+            justify-content: space-evenly;
+        }
+    }
+    &__question {
+        margin-bottom: 10px;
+    }
+    
+}
+
+.error {
+    color: red;
+    font-size: 20px;
+}
