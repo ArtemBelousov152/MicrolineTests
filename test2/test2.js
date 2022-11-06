@@ -17,5 +17,3 @@ function checkEmail(config, testEmail) {
         return 'you can do nothing'
     }
 }
-
-console.log(checkEmail(config, 'sample@email.com'))
